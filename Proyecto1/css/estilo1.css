@@ -1,0 +1,61 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    border-radius: 50%;
+}
+#general
+{
+    margin: auto; /*se ubica de manera automatica en la pantalla*/
+    margin-top: 15px;
+    width: 600px;
+    height: 600px;
+    background-color: aquamarine;
+    position: relative;
+
+
+}
+#caja1
+{
+    margin: auto; /*siempre va primero*/
+    margin-top: 15px;
+    width: 120px;
+    height: 120px;
+    background-color: gold;
+    position: absolute;
+    top: 20%;
+    right: 25%;  
+}
+
+#caja2
+{
+    margin: auto;
+    margin-top: 15px;
+    width: 120px;
+    height: 120px;
+    background-color: lightskyblue;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+}
+
+#caja3
+{
+    margin: auto;
+    width: 80px;
+    height: 80px;
+    background-color: bisque;
+    position: relative;
+    top: 45%;
+}
+#caja4
+{
+    margin: auto;
+    width: 300px;
+    height: 150px;
+    background-color: brown;
+    position: relative;
+    top: 50%;
+    right: 20;
+
+}
